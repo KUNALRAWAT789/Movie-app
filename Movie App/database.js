@@ -5,7 +5,7 @@ import ReviewsDAO from "./dao/reviewsDAO.js"
 const MongoClient = mongodb.MongoClient
 // const mongo_username = process.env['MONGO_USERNAME']
 // const mongo_password = process.env['PASSWORD']
-const uri = `mongodb://localhost:27017/Webreview`
+const uri = ``
 const port = 8000
 
 MongoClient.connect(
@@ -22,4 +22,5 @@ MongoClient.connect(
     app.listen(port,() => {
         console.log(`listening on port ${port}`)
     })
+
    })
