@@ -1,6 +1,6 @@
-const apilink = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=fdc9f6183d8834a2369060e88a2755a4&page=1' //where we access the api from
-const img_path = 'https://image.tmdb.org/t/p/w1280'
-const search_api = 'https://api.themoviedb.org/3/search/movie?&api_key=fdc9f6183d8834a2369060e88a2755a4&query=' //how can we use the api to search
+const apilink = '' 
+const img_path = ''
+const search_api = '' 
 
 const main = document.getElementById("section1");
 const form = document.getElementById("form");
@@ -50,4 +50,5 @@ form.addEventListener("submit", (e) =>{
         returnmovies(search_api + searchItem);
         search.value = '';
     }
+
 } );
