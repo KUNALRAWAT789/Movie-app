@@ -5,10 +5,7 @@
 body {
   background-color: #131720;
   font-family: sans-serif;
-}
-
-h3 {
-    color: white;
+  color: white;
 }
 
 .topnavbar {
@@ -42,9 +39,8 @@ form {
 }
 
 input {
-    all: unset;
     font: 15px system-ui;
-    color: white;
+    color: black;
     height: 100%;
     width: 100%;
     padding: 6px 9px;
@@ -68,3 +64,10 @@ border-radius: 19px;
     text-align: center;
     background-color: #151f30;
 }
+
+/* #center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
